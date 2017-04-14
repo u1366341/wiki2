@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Fast 8",
+    "genre" : "Action",
+  },
+  {
+    "name": "Wanted",
+    "genre" : "Adventure",
+    
+  },
+  {
+    "name": "How High",
+    "genre" : "Comedy",
+    
+  }
+]

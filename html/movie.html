@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WikiReviews</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href = "../css/bootstrap.min.css" rel = "stylesheet">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+        
+        <div class= "navbar navbar-inverse navbar-fixed-top">
+            <div class = "container">
+                <a href="../index.html" class="navbar-brand">WikiReviews</a>
+                
+                <button class= "navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                </button>
+                <div class = "collapse navbar-collapse navHeaderCollapse">
+                   
+                    <ul class = "nav navbar-nav navbar-right">
+                        <li><a href="../index.html">Home</a></li>
+                        <li class= "dropdown">
+                            <a href = "#" class ="dropdown-toggle" data-toggle="dropdown">Reviews<b class="caret"></b></a>
+                            <ul class= "dropdown-menu">
+                                <li><a href="movie.html">Movies</a></li>
+                                <li><a href="tvshows.html">Tv Shows</a></li> 
+                            </ul>
+                        </li>
+                        <li><a href="#contact" data-toggle="modal">Contact Us</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                    </ul>
+                </div>
+            </div>  
+        </div>
+        <br><br><br>
+        <div class="container">
+            <div class="jumbotron" id=movie-jum>
+                <h1 class="text-center" id="jum-heading">- Movies! -</h1>
+                <p class="text-center" id="jum-text">In this section, We have all the lastest movies reviews which have been professionally writen by our top critics. Also we have looked at YOUR reviews and have rated each individual movies on the viewers overall ratings. To access the reviews, simply click on the movie thumbnail and it will redirect you to the reviews page, where you can leave a rating and also watch the trailers and save the mmovie to your favourites which you can come back to.</p>
+                <p>Click the shortcuts below to see reviews!</p>
+                <a class ="btn btn-info" href="movie.html">Movies</a>
+                <a class ="btn btn-info" href="tvshows.html">TV Shows</a>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="review.html">
+                    <img src="../images/movie/badsanta2.jpg" class="img-responsive img-rounded center-block" width="250" height="175">
+                    <p class="text-center" id=imagetext>Bad Santa 2</p>
+                    </a>
+                </div>
+            <div class="col-md-3">
+                    <a href="review.html">
+                    <img src="../images/movie/trolls.jpg" class="img-responsive img-rounded center-block" width="250" height="175">
+                    <p class="text-center" id=imagetext>Trolls</p>
+                    </a>
+                </div>
+        <div class="col-md-3">
+                    <a href="review.html">
+                    <img src="../images/movie/friendreq.jpg" class="img-responsive img-rounded center-block" width="250" height="175">
+                    <p class="text-center" id=imagetext>Friend Request</p>
+                    </a>
+                </div>
+        <div class="col-md-3">
+                    <a href="review.html">
+                    <img src="../images/movie/assassinscreed.jpg" class="img-responsive img-rounded center-block" width="250" height="175">
+                    <p class="text-center" id=imagetext>Assassins Creed</p>
+                    </a>
+                </div>
+                        
+            </div>
+        </div>
+        
+        <br>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="review.html">
+                    <img src="../images/movie/collateralbeauty.jpg" class="img-responsive img-rounded center-block" width="250" height="175">
+                    <p class="text-center" id=imagetext>Collateral Beauty</p>
+                    </a>
+                </div>
+            <div class="col-md-3">
+                    <a href="review.html">
+                    <img src="../images/movie/neruda.jpg" class="img-responsive img-rounded center-block" width="250" height="175">
+                    <p class="text-center" id=imagetext>Neruda</p>
+                    </a>
+                </div>
+        <div class="col-md-3">
+                    <img src="../images/movie/solace.jpg" class="img-responsive img-rounded center-block" width="250" height="175">
+                    <p class="text-center" id=imagetext>Solace</p>
+                </div>
+        <div class="col-md-3">
+                    <a href="review.html">
+                    <img src="../images/movie/sing.jpg" class="img-responsive img-rounded center-block" width="250" height="175">
+                    <p class="text-center" id=imagetext>Sing</p>
+                    </a>
+                </div>
+                        
+            </div>
+        </div>
+        
+        <br><br><br>
+        
+        <div class = "navbar navbar-inverse navbar-fixed-bottom">
+            
+            <div class="container">
+                <p class="navbar-text pull-left">WikiReviews developed by 'Mohammed Junaid - U1366341'</p>
+                <a hef="#" class="navbar-btn btn-danger btn pull-right">Favorites</a>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="contact" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form class="form-horizontal">
+                        <div class="modal-header">
+                            <h4>Contact WikiReviews</h4>
+                        </div>
+                        <div class="modal-body">
+                            
+                            <div class="form-group">
+                                <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+                                <div class="col-lg-10">
+                                    <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                                <div class="col-lg-10">
+                                    <textarea class="form-control" rows="8"></textarea>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-default" data-dismiss="modal">
+                            Close
+                            </a>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="../js/bootstrap.js"></script>
+    </body>
+</html>

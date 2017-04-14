@@ -1,0 +1,91 @@
+body{
+    background-image: url('../images/mainbg.png');
+    margin-bottom: 80px;
+    margin-top:0;
+}
+
+#mainnavbar{
+    margin-bottom:100px;
+}
+
+#movie-jum
+{
+    background-image: url('../images/fast7back.jpg');
+    color:white;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height:500px;
+    margin-top:0px;
+    margin-bottom:20px;
+
+}
+
+#tvshow-jum
+{
+    background-image: url('../images/breakingbadbg.jpg');
+    color:white;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height:500px;
+    margin-top:0px;
+    margin-bottom:8px;
+
+}
+
+#imagetext{
+    color:SkyBlue;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+#jum-text{
+    color:SkyBlue;
+    font-weight: bold;
+}
+
+#jum-heading{
+    color:SlateBlue;
+    font-weight: bold;
+}
+
+.page-header{
+    margin-top:0;
+}
+.panel-body{
+    padding-top:0;
+}
+.moviebanner{
+    margin-bottom:15px;
+}
+
+#reviewheading{
+    color:SlateBlue;
+    font-weight: bold;
+    font-size:xx-large;
+}
+#reviewsubheading{
+    color:SlateBlue;
+    font-weight: bold;
+    font-size:x-large;
+}
+#reviewcontent, #reviewlist{
+    color:SkyBlue;
+    font-size:large;
+}
+#container, #home-jum{
+    background-color:#262626;
+}
+
+#maptext{
+    color:SkyBlue;
+}
+
+.hide-me{
+    display: none;
+}
+#movie-info{
+    color: SkyBlue;
+}

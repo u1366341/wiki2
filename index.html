@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WikiReviews</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href = "css/bootstrap.min.css" rel = "stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/lightbox.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <div class= "navbar navbar-inverse navbar-fixed-top">
+            <div class = "container">
+                <a href="index.html" class="navbar-brand">WikiReviews</a>
+                
+                <button class= "navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                </button>
+                <div class = "collapse navbar-collapse navHeaderCollapse">
+                   
+                    <ul class = "nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li class= "dropdown">
+                            <a href = "#" class ="dropdown-toggle" data-toggle="dropdown">Reviews<b class="caret"></b></a>
+                            <ul class= "dropdown-menu">
+                                <li><a href="html/movie.html">Movies</a></li>
+                                <li><a href="html/tvshows.html">Tv Shows</a></li> 
+                            </ul>
+                        </li>
+                        <li><a href="#contact" data-toggle="modal">Contact Us</a></li>
+                        <li><a href="html/aboutus.html">About</a></li>
+                    </ul>
+                </div>
+            </div>  
+        </div>
+        <br><br><br>
+        
+        <div class="container">
+            <div class="jumbotron" id="home-jum">
+                <h1 class="text-center" id="jum-heading">- Welcome to WikiReviews! -</h1>
+                <p class="text-center" id="jum-text">>Wiki Reviews® is the most trusted measurement of quality entertainment. As the leading online aggregator of movie and TV show reviews from professional critics, Wiki Reviews offers the most comprehensive guide to what's fresh. The world famous ratings represents the percentage of positive professional reviews for films and TV shows and is used by millions every day, to help with their entertainment viewing decisions. Wiki Reviews designates the best reviewed movies and TV shows as Certified Fresh™. Weekly Wiki Reviews podcasts can be found on Wiki Reviews.com, iTunes, Soundcloud and Stitcher, and Wiki Reviews' entertainment experts make regular TV and radio appearances across the UK.</p>
+                <p id="jum-text">Click the shortcuts below to see reviews!</p>
+                <a class ="btn btn-info" id="moviebtn" href="html/movie.html" data-toggle="Movie" title="Go To Movies Page">Movies</a>
+                <a class ="btn btn-info" id="tvshowbtn" href="html/tvshows.html" data-toggle="Tv Shows" title="Go To Tv Shows Page">TV Shows</a>
+            </div>
+        </div>
+        
+        <div class="container">
+        <div id="homecarousel" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#homecarousel"data-slide-to="0" class="active"></li>
+                <li data-target="#homecarousel"data-slide-to="1"></li>
+                <li data-target="#homecarousel"data-slide-to="2"></li>
+            </ol>
+            
+            <div class="carousel-inner">
+                
+                <div class="item active">
+                    <img src="images/ssquad.jpg" alt="Suicide Squad" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3>Suicide Squad</h3>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <img src="images/batmanvssuperman.jpg" alt="Batman Vs Superman" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3>Batman Vs Superman</h3>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <img src="images/prisonbreak.jpg" alt="Prison Break" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3>Prison Break</h3>
+                    </div>
+                </div>
+                
+                <a class="carousel-control left" href="#homecarousel" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                
+                <a class="carousel-control right" href="#homecarousel" data-slide="next">
+                    <span class="icon-next"></span>
+                </a>
+                
+            </div>
+            
+        </div>
+        </div>
+        <br>
+
+    <div class="container">
+        <h1 class="text-center" id="jum-heading"> Click To Preview Movie Banners </h1>
+        <br>
+        <div class="image-row">
+            <div class="image-set">
+                <div class="row">
+                    <div class="col-md-3">
+                      <a class="example-image-link" href="images/movie/badsanta2-banner.jpg" data-lightbox="example-set" data-title="Bad Santa 2"><img class="example-image" src="images/movie/badsanta2.jpg" alt="Bad Santa 2" width="200" height="300"></a>
+                    </div>
+                    
+                    <div class="col-md-3">
+                      <a class="example-image-link" href="images/movie/trolls-banner.jpg" data-lightbox="example-set" data-title="Trolls"><img class="example-image" src="images/movie/trolls.jpg" alt="Trolls Movie Banner" width="200" height="300"></a>
+                    </div>
+              
+                    <div class="col-md-3">
+                      <a class="example-image-link" href="images/movie/solace-banner.jpg" data-lightbox="example-set" data-title="Solace"><img class="example-image" src="images/movie/solace.jpg" alt="Solace Movie Banner" width="200" height="300"></a>
+                    </div>
+              
+                    <div class="col-md-3">
+                      <a class="example-image-link" href="images/movie/neruda-banner.jpg" data-lightbox="example-set" data-title="Neruda"><img class="example-image" src="images/movie/neruda.jpg" alt="Neruda Movie Banner" width="200" height="300"></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+            <div class = "navbar navbar-inverse navbar-fixed-bottom">
+            
+            <div class="container">
+                <p class="navbar-text pull-left">WikiReviews developed by 'Mohammed Junaid - U1366341'</p>
+                <a hef="#" class="navbar-btn btn-danger btn pull-right">Favorites</a>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="contact" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form class="form-horizontal">
+                        <div class="modal-header">
+                            <h4>Contact WikiReviews</h4>
+                        </div>
+                        <div class="modal-body">
+                            
+                            <div class="form-group">
+                                <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+                                <div class="col-lg-10">
+                                    <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                                <div class="col-lg-10">
+                                    <textarea class="form-control" rows="8"></textarea>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-default" data-dismiss="modal">
+                            Close
+                            </a>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/lightbox.js"></script>
+        
+        <script type="text/javascript">
+            $('document').ready(function(){
+                
+                $('#moviebtn').tooltip();
+                $('#tvshowbtn').tooltip();
+            });  
+        </script>
+        
+        
+    </body>
+</html>
